@@ -1,0 +1,19 @@
+// --- WRAPPER ---
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+// --- SHADOWS ---
+
+.shadow {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.699);
+}

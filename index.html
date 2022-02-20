@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vulkhan</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inconsolata:wght@400;700&family=Roboto&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css" />
+		<script src="https://kit.fontawesome.com/eeec7a3436.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="header" id="home">
+			<div class="shadow"></div>
+			<nav class="nav section">
+				<a href="#home" class="nav__logo">
+					<img class="nav__logo-img" src="images/minivulkhan.png" alt="volcano" />
+					<h3 class="nav__logo-text"><span>V</span>olcanic</br><span>B</span>log</h3>
+				</a>
+				<button class="nav__menu">
+					<span class="nav__menu-box">
+						<span class="nav__menu-box-inner"></span>
+					</span>
+				</button>
+				<ul class="nav__elements">
+					<li class="nav__elements-item"><a href="#home">home</a></li>
+					<li class="nav__elements-item"><a href="#about-us">about us</a></li>
+					<li class="nav__elements-item"><a href="#adventures">adventures</a></li>
+					<li class="nav__elements-item"><a href="#gallery">gallery</a></li>
+					<li class="nav__elements-item"><a href="#contact">contact</a></li>
+				</ul>
+				<button class="nav__search">
+					<i class="fas fa-search"></i><a href="#home"></i></a>
+				</button>
+			</nav>
+			<div class="heading section red-nav">
+				<h1 class="heading__title">Volcanic fervor</h1>
+				<h3 class="heading__subtitle">It's time for an eruption...</h3>
+				<p class="heading__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti aut, quo velit consequuntur omnis odio. Minus labore maxime, voluptate unde voluptatem nesciunt, nihil laboriosam, ad ipsa animi repudiandae quia necessitatibus?</p>
+				<a href="#join" class="heading__join"><i class="fas fa-sign-in-alt"></i>join us!</i></a>
+				<a href="#about-us" class="heading__arrow"><i class="fas fa-chevron-down"></i></a>
+			</div>
+			<div class="search-input">
+				<i class="search-input__icon fas fa-search"></i>
+				<label class="search-input__label">search</label>
+				<input class="search-input__input" type="text" placeholder="what do you find?">
+				<div class="search-input__error"></div>
+				<div class="search-input__buttons">
+					<button id="search-button-accept" class="search-input__buttons-button">accept</button>
+					<button id="search-button-decline" class="search-input__buttons-button">decline</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section id="about-us" class="about-us section red-nav">
+				<div class="wrapper">
+					<div class="about-us__header">
+						<h2 class="about-us__header-heading">
+						more about us
+						</h2>
+						<p class="about-us__header-text about-us__header-text--first">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem soluta impedit ab, aut incidunt dolor veritatis illum eligendi quas quasi natus molestiae ipsa ea enim maiores cum? Reprehenderit minus non, aut fuga, quod, aspernatur perspiciatis libero autem rerum vitae iste odio harum sed officia deleniti possimus. Impedit odio sint pariatur quos nihil, vitae, laudantium recusandae eos odit quidem sapiente. Harum!</p>
+						<p class="about-us__header-text about-us__header-text--second">Now, let me introduce...</p>
+					</div>
+					<div class="about-us__box">
+						<div class="about-us__box-human">
+							<h3 class="about-us__box-human-header">Geralt</h3>
+							<div class="about-us__box-human-box">
+								<img class="about-us__box-human-box-img" src="./images/geralt.jpg" alt="guy adventurer water">
+								<p class="about-us__box-human-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab officia ratione magni doloremque! Repellat repudiandae, quia nostrum assumenda dolorum quisquam animi laudantium esse illo, quo in, non neque. Tenetur, nobis dolorum. Officiis quam nostrum distinctio.</p>
+							</div>
+						</div>
+						<div class="about-us__box-human">
+							<h3 class="about-us__box-human-header">Arwena and Michael</h3>
+							<div class="about-us__box-human-box">
+								<p class="about-us__box-human-box-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est ad necessitatibus officiis voluptate accusantium voluptatum architecto error nostrum amet possimus ullam, eligendi, esse consectetur ipsam dicta dolorum porro at iure! Natus culpa ipsum vero rem necessitatibus itaque, recusandae animi totam, quas veniam iste in corporis? Porro dicta eos est in veniam culpa numquam optio recusandae ratione. Ea voluptatum voluptas sed.</p>
+								<img class="about-us__box-human-box-img" src="./images/arwena_michael.jpg" alt="woman man adventurers waterfall">
+							</div>
+						</div>
+						<div class="about-us__box-human">
+							<h3 class="about-us__box-human-header">Johannes</h3>
+							<div class="about-us__box-human-box">
+								<img class="about-us__box-human-box-img" src="./images/johannes.jpg" alt="guy adventurer stones">
+								<p class="about-us__box-human-box-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad laudantium voluptatum, magni numquam ipsum veritatis est. Ipsum ipsa consequuntur voluptate vero. Illo ea ipsam unde accusamus, molestias suscipit quibusdam repellat cupiditate ab, fugiat nulla tenetur?</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="adventures" class="adventures section red-nav">
+				<div class="wrapper">
+					<div class="adventures__header">
+						<p class="adventures__header-title">let's see...</br></br>...our adventures</p>
+						<div class="adventures__header-text">
+							<p class="adventures__header-text-intro">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nam vero voluptatum maxime earum unde inventore obcaecati assumenda tempore facere laboriosam tenetur est, sint laudantium!</p>
+							<p class="adventures__header-text-path">Select your path</p>
+							<div class="adventures__header-text-buttons">
+								<a href="#seen"><button class="adventures__header-text-buttons-seen"><i class="fas fa-angle-double-down"></i> seen</button></a>
+								<a href="#soon"><button class="adventures__header-text-buttons-soon">soon <i class="fas fa-angle-double-down"></i></button></a>
+							</div>
+						</div>
+					</div>
+					<div class="adventures__box">
+						<h3 id="seen" class="adventures__box-header">These places we visited...</h3>
+						<div class="adventures__box-seen">
+							<div class="adventures__box-seen-card">
+								<div class="adventures__box-seen-card-info adventures__box-seen-card-info--first">
+									<p class="adventures__box-seen-card-info-header">Beerenberg</p>
+									<p class="adventures__box-seen-card-info-text"><i class="fas fa-angle-double-right"></i> hover for more info...</p>
+								</div>
+								<div class="adventures__box-seen-card-description adventures__box-seen-card-description--first">
+									<p class="adventures__box-seen-card-description-header">Beerenberg</p>
+									<div class="adventures__box-seen-card-description-text">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nobis assumenda porro doloribus voluptatum repudiandae repellat, tempora fugiat corporis impedit ut! Saepe molestiae voluptatum aperiam natus eos architecto aliquam impedit.</p>
+									</div>
+								</div>
+							</div>
+							<div class="adventures__box-seen-card">
+								<div class="adventures__box-seen-card-info adventures__box-seen-card-info--second">
+									<p class="adventures__box-seen-card-info-header">Askja</p>
+									<p class="adventures__box-seen-card-info-text"><i class="fas fa-angle-double-right"></i> hover for more info...</p>
+								</div>
+								<div class="adventures__box-seen-card-description adventures__box-seen-card-description--second">
+									<p class="adventures__box-seen-card-description-header">Askja</p>
+									<div class="adventures__box-seen-card-description-text">
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum deleniti, corporis dolore ad, debitis et pariatur consequatur omnis quae delectus, eos sit molestias sed adipisci aliquam neque nostrum quo. Officia minima aliquid magnam odio non soluta voluptatem modi corrupti nobis.</p>
+									</div>
+								</div>
+							</div>
+							<div class="adventures__box-seen-card">
+								<div class="adventures__box-seen-card-info adventures__box-seen-card-info--third">
+									<p class="adventures__box-seen-card-info-header">Sangay</p>
+									<p class="adventures__box-seen-card-info-text"><i class="fas fa-angle-double-right"></i> hover for more info...</p>
+								</div>
+								<div class="adventures__box-seen-card-description adventures__box-seen-card-description--third">
+									<p class="adventures__box-seen-card-description-header">Sangay</p>
+									<div class="adventures__box-seen-card-description-text">
+										<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio consectetur quas eaque, accusamus ea itaque incidunt! Unde ipsa quis error.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<h3 id="soon" class="adventures__box-header">...and these we will see</h3>
+						<div class="adventures__box-soon">
+							<div class="adventures__box-soon-card">
+								<div class="adventures__box-soon-card-info adventures__box-soon-card-info--fourth">
+									<p class="adventures__box-soon-card-info-header">Krakatau</p>
+									<p class="adventures__box-soon-card-info-text"><i class="fas fa-angle-double-right"></i> hover for more info...</p>
+								</div>
+								<div class="adventures__box-soon-card-description adventures__box-soon-card-description--fourth">
+									<p class="adventures__box-soon-card-description-header">Krakatau</p>
+									<div class="adventures__box-soon-card-description-text">
+										<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, asperiores voluptate beatae iusto dolorum numquam doloribus tempora deleniti vel dignissimos quisquam harum omnis necessitatibus nam repudiandae maiores, atque explicabo eligendi. Dignissimos officia nesciunt nam modi ea doloribus.</p>
+									</div>
+								</div>
+							</div>
+							<div class="adventures__box-soon-card">
+								<div class="adventures__box-soon-card-info adventures__box-soon-card-info--fifth">
+									<p class="adventures__box-soon-card-info-header">Stromboli</p>
+									<p class="adventures__box-soon-card-info-text"><i class="fas fa-angle-double-right"></i> hover for more info...</p>
+								</div>
+								<div class="adventures__box-soon-card-description adventures__box-soon-card-description--fifth">
+									<p class="adventures__box-soon-card-description-header">Stromboli</p>
+									<div class="adventures__box-soon-card-description-text">
+										<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit animi eveniet expedita? Dolor asperiores quisquam voluptatum molestias? Sapiente nam exercitationem iste tenetur explicabo inventore.</p>
+									</div>
+								</div>
+							</div>
+							<div class="adventures__box-soon-card">
+								<div class="adventures__box-soon-card-info adventures__box-soon-card-info--sixth">
+									<p class="adventures__box-soon-card-info-header">Orizaba</p>
+									<p class="adventures__box-soon-card-info-text"><i class="fas fa-angle-double-right"></i> hover for more info...</p>
+								</div>
+								<div class="adventures__box-soon-card-description adventures__box-soon-card-description--sixth">
+									<p class="adventures__box-soon-card-description-header">Orizaba</p>
+									<div class="adventures__box-soon-card-description-text">
+										<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates ut iusto deleniti quas vero iure ad animi aliquam accusantium. Sequi quae nobis neque explicabo aut praesentium quibusdam asperiores in eum, excepturi, nisi suscipit vero facere ab modi labore nulla quisquam. Officia.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="gallery" class="gallery section red-nav">
+				<div class="wrapper">
+					<div class="gallery__header">
+						<h3>Now, let's look at awesome photos!</h3>
+					</div>
+					<div class="gallery__img">
+						<ul class="gallery__img-list">
+							<li class="gallery__img-list-element"><img src="images/gallery1_maxi.jpg" alt="woman on mountain"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery2_maxi.jpg" alt="man climbing on a mountain"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery3_maxi.jpg" alt="man walking at mountain"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery4_maxi.jpg" alt="eruption of the volcano with pyroclastic material"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery5_maxi.jpg" alt="smoke coming out of the volcano"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery6_maxi.jpg" alt="sunset with smoke coming out of the volcano"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery7_maxi.jpg" alt="big eruption of the volcano"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery8_maxi.jpg" alt="sky with the smoke coming out of the volcano"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery9_maxi.jpg" alt="hot lava in the crater"></li>
+							<li class="gallery__img-list-element"><img src="images/gallery10_maxi.jpg" alt="plant growing on solidified lava"></li>
+						</ul>
+					</div>
+					<div class="gallery__popup gallery__popup--hidden">
+						<button class="gallery__popup-close"><i class="fa fa-close"></i></button>
+						<img src="" alt="" class="gallery__popup-img">
+						<button class="gallery__popup-arrow gallery__popup-arrow--left"><i class="fa fa-arrow-left"></i></button>
+						<button class="gallery__popup-arrow gallery__popup-arrow--right"><i class="fa fa-arrow-right"></i></button>
+					</div>
+				</div>
+			</section>
+			<section id="join" class="join section red-nav">
+				<div class="wrapper">
+					<div class="join__header">
+						<h3>traveling together</h3>
+						<p>Wanna discover new adventures?</br></br><span>Let's join!</span></p>
+						<p>Have any questions?</br></br><span>Let's ask!</span></p>
+						<p>Leave a message for us!</p>
+					</div>
+					<form class="join__form">
+						<div class="join__form-names">
+							<div class="join__form-names-box">
+								<label for="name">Your name:</label>
+								<input type="text" placeholder="Type your name here" class="join__form-names-box-input">
+							</div>
+							<div class="join__form-names-box">
+								<label for="surname">Your surname:</label>
+								<input type="text" placeholder="Type your surname here" class="join__form-names-box-input">
+							</div>
+						</div>
+						<div class="join__form-contact">
+							<div class="join__form-contact-box">
+								<label for="e-mail">Your e-mail:</label>
+								<input type="text" placeholder="Type your e-mail here" class="join__form-contact-box-input">
+							</div>
+							<div class="join__form-contact-box">
+								<label for="number">Your phone number:</label>
+								<input type="text" placeholder="Type your phone number here" class="join__form-contact-box-input">
+							</div>
+						</div>
+						<div class="join__form-msg">
+							<label for="msg">Your message:</label>
+							<textarea></textarea>
+						</div>
+						<button type="submit" class="join__form-submit">Send</button>
+					</form>
+				</div>
+			</section>
+		</main>
+		<footer id="contact" class="footer" class="footer section red-nav">
+			<div class="wrapper">
+				<h3 class="footer__header">volcanic blog</h3>
+				<hr>
+				<div class="footer__box">
+					<div class="footer__box-contact">
+						<h4>contact with us</h4>
+						<div class="footer__box-contact-logo">
+							<a href="#home">
+								<img src="images/minivulkhan.png" alt="volcano" />
+								<p><span>V</span>olcanic</span></br>B</span>log</p>
+							</a>
+						</div>
+						<div class="footer__box-contact-data">
+							<p>+48 123-456-789</p>
+							<p>volcanicblog@xyz.com</p>
+							<p>volcanicblog.com</p>
+						</div>
+					</div>
+					<div class="footer__box-aboutus">
+						<h4>more about us</h4>
+						<ul>
+							<li><a href="#about-us">About us</a></li>
+							<li><a href="#join">Join us</a></li>
+						</ul>
+					</div>
+					<div class="footer__box-adventures">
+						<h4>our adventures</h4>
+						<ul>
+							<li><a href="#seen">Beerenberg</a></li>
+							<li><a href="#seen">Askja</a></li>
+							<li><a href="#seen">Sangay</a></li>
+							<li><a href="#soon">Krakatau</a></li>
+							<li><a href="#soon">Stromboli</a></li>
+							<li><a href="#soon">Orizaba</a></li>
+						</ul>
+					</div>
+					<div class="footer__box-socialmedia">
+						<h4>social media</h4>
+						<div class="footer__box-socialmedia-icons">
+							<a href="#" class="footer__box-socialmedia-icons-element"><i class="fab fa-facebook-square"></i></a>
+							<a href="#" class="footer__box-socialmedia-icons-element"><i class="fab fa-twitter-square"></i></a>
+							<a href="#" class="footer__box-socialmedia-icons-element"><i class="fab fa-instagram-square"></i></a>
+							<a href="#" class="footer__box-socialmedia-icons-element"><i class="fab fa-linkedin"></i></a>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<p class="footer__rights"> &copy; All rights reserved <span class="footer__rights-year"></span></p>
+			</div>
+		</footer>
+		<script src="./scripts/scripts.js"></script>
+	</body>
+</html>
